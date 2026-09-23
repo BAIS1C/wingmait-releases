@@ -2,6 +2,12 @@
 
 All times SGT (UTC+8). Earlier builds: see the GitHub releases list.
 
+## 0.9.5-beta.2, Beta 0.95 hotfix (2026-09-23)
+
+- Fixed: moving the radio sliders or clicking presets could queue test lines that kept playing. Only one preview plays at a time now, and each new one interrupts the last; real callouts are never cut off by a preview.
+- Fixed: picking a new character in the voice dropdown takes effect straight away, instead of waiting for the old voice's queued lines.
+- CLEAR now sits apart from the radio presets, with a tooltip; it resets the radio effect to clean (0/0).
+
 ## 0.9.5-beta.1, "Beta 0.95" (2026-09-23)
 
 ### Highlights
