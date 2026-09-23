@@ -2,6 +2,21 @@
 
 All times SGT (UTC+8). Earlier builds: see the GitHub releases list.
 
+## 0.9.5-beta.1, "Beta 0.95" (2026-09-23)
+
+### Highlights
+- Radio comms now has two sliders: Voice distortion and Static (0 to 100 each), with presets Clear, Comms, Field and Hell, and a live preview when you release a slider. Signal quality still wanders within each line; an anti-mud guard ducks static under the voice, cuts low rumble and keeps noise at least 6 dB below speech. Both sliders at 0 is a clean bypass. Applies to every voice, character packs and Kokoro alike.
+- Every voice line is now loudness-normalised to one level before any radio effect, at playback and in the shipped media (pack spread cut from about 8 dB to about 0.1 dB).
+- Settings: an "i" explainer on every settings row, in all five languages (non-English text is machine translated and awaiting native review).
+- Military comms voice bank (military digits, NATO alphabet, radio prowords) promoted into six of seven character packs; the spoken fire solution from the Wing Mait map and mortar calculator is live for those characters. Sgt Bravo 4 has 3 lines pending and stays silent for fire solutions until they ship.
+- Occasional "Break" / "Over" radio words on quiet-time callouts (about 1 in 20; never under load, never on spotted callouts).
+- New Stats screen (replaces Ledger): session and all-time views, JSON and Excel export, full screen, and OBS stat pins that render chosen tiles as a Browser Source overlay. "Stats powered by Everywear ID".
+
+### Honest status of Stats
+- The screen, local recorder and exports are in. The on-screen stat readers are still calibrating against recorded gameplay (best so far: control holder 87.5% exact, HOT ZONE banner 81%; cash and team scores lower). Until a reader reaches 97% accuracy its tile shows "Calibrating" instead of a number. Evidence crops are kept locally so sessions recorded now can be re-read by a later build.
+
+### Not claimed
+- Unsigned installer (SmartScreen will warn). No anti-cheat certification. Live in-game mortar callouts from the map remain coming soon. Leaderboards and Everywear ID sign-in are not in this build.
 ## 0.9.0-beta.9 (2026-09-23)
 
 ### Highlights
