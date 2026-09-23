@@ -2,6 +2,13 @@
 
 All times SGT (UTC+8). Earlier builds: see the GitHub releases list.
 
+## 0.9.5-beta.3, Beta 0.95 hotfix 2 (2026-09-24)
+
+- Fixed: revive lines while you were alive, when the mortar sight or the big map covered the minimap.
+- Fixed: the same contact being called twice as it moves from one compass direction to the next.
+- Combat callouts are muted while the big map is open; fire solutions still speak.
+- Sgt Bravo 4 now speaks the full fire solution.
+
 ## 0.9.5-beta.2, Beta 0.95 hotfix (2026-09-23)
 
 - Fixed: moving the radio sliders or clicking presets could queue test lines that kept playing. Only one preview plays at a time now, and each new one interrupts the last; real callouts are never cut off by a preview.
